@@ -1,1 +1,0 @@
-﻿model.Annees_Scolaires.events.onInit = function() {	this.UID_Creation = currentUser().fullName;	this.Date_Creation = new Date();};model.Annees_Scolaires.events.onSave = function() {	this.UID_MAJ = currentUser().fullName;	this.Derniere_MAJ = new Date();};
